@@ -40,9 +40,16 @@
 </template>
 <script>
 
-
-
-
+import Textarea from "../components/Textarea.vue";
+import Label from "../components/Label.vue";
+import Cargar from "../components/Cargar.vue";
+import Ingresar from "../components/Ingresar.vue";
+import Boton from "../components/Boton.vue";
+import { subscribeToAuth } from "./../service/auth.js";
+import { MostrarProductos } from "../service/productos";
+import H1 from "../components/H1.vue";
+import H2 from "../components/H2.vue";
+import P from "../components/P.vue";
 
 
 
