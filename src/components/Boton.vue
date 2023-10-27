@@ -34,7 +34,7 @@ export default {
             default: false,
         }
     },
-    components: { Cargar }
+    components: { Carga }
 }
 
 </script>

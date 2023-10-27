@@ -4,7 +4,8 @@ import { createRouter, createWebHistory } from "vue-router";
 import  Home  from '../views/Home.vue';
 import Products from '../views/Products.vue';
 import LogIn from '../views/Login.vue';
-import SignIn from '../views/Signin.vue';
+import SingIn from '../views/Singin.vue';
+import Admin from '../views/Admin.vue';
 
 const routes = [
   {
@@ -23,10 +24,16 @@ const routes = [
     component: LogIn, // Asocia la vista Home con esta ruta
   },
   {
-    path: "/SignIn",
-    name: "Signin",
-    component: SignIn, // Asocia la vista Home con esta ruta
+    path: "/SingIn",
+    name: "Singin",
+    component: SingIn, // Asocia la vista Home con esta ruta
   },
+  {
+    //path: "/Admin",
+   // name: "adminProductos",
+   // component: Admin, // Asocia la vista Home con esta ruta
+  },
+
   // Otras rutas
 ];
 

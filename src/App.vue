@@ -7,7 +7,7 @@ export default {
 <template>
     <!-- Nav -->
 
-    <div>
+    <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
                 <a class="navbar-brand" href="#">Sporteam</a>
@@ -51,7 +51,7 @@ export default {
 <style>
 
 body {
-    background-color: aqua;
+    background-color: rgb(249 166 80 / 35%)!important;
 }
 
 nav {
